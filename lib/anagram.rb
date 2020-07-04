@@ -12,7 +12,7 @@ class Anagram
         #     result << word if word.split("").sort == @word.split("").sort
         # end
         # result
-
+        
         possible_anagram_array.select {|word| word.split("").sort == @word.split("").sort}
     end
 
