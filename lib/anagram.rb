@@ -11,5 +11,5 @@ class Anagram
       (@word.split("").sort) == (element.split("").sort)
     end
   end
-  
+end
     
